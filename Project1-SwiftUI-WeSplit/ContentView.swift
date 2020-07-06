@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var students = ["Ezequiel", "Alexis", "Karen"]
+    @State private var selectedStudent = "Ezequiel"
+    
     var body: some View {
-        Text("Hello, World!")
+        Picker("Select your student", selection: $selectedStudent ){
+            ForEach( 0 ..< students.count) {
+                Text(self.students[$0])
+            }
+        }
+       
+        
     }
 }
 
