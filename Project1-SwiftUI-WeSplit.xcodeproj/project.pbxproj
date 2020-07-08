@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372E258124B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E257F24B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png */; };
+		372E258224B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png in Resources */ = {isa = PBXBuildFile; fileRef = 372E258024B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png */; };
 		3766269F24B3960C003B96F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3766269E24B3960C003B96F1 /* AppDelegate.swift */; };
 		376626A124B3960C003B96F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376626A024B3960C003B96F1 /* SceneDelegate.swift */; };
 		376626A324B3960C003B96F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376626A224B3960C003B96F1 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372E257F24B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png"; sourceTree = "<group>"; };
+		372E258024B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png"; sourceTree = "<group>"; };
 		3766269B24B3960C003B96F1 /* Project1-SwiftUI-WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project1-SwiftUI-WeSplit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3766269E24B3960C003B96F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		376626A024B3960C003B96F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372E257E24B68E2400A5AD97 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				372E257F24B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png */,
+				372E258024B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		3766269224B3960C003B96F1 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,7 @@
 				376626A424B3960D003B96F1 /* Assets.xcassets */,
 				376626A924B3960D003B96F1 /* LaunchScreen.storyboard */,
 				376626AC24B3960D003B96F1 /* Info.plist */,
+				372E257E24B68E2400A5AD97 /* images */,
 				376626A624B3960D003B96F1 /* Preview Content */,
 			);
 			path = "Project1-SwiftUI-WeSplit";
@@ -133,9 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372E258124B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.45.png in Resources */,
 				376626AB24B3960D003B96F1 /* LaunchScreen.storyboard in Resources */,
 				376626A824B3960D003B96F1 /* Preview Assets.xcassets in Resources */,
 				376626A524B3960D003B96F1 /* Assets.xcassets in Resources */,
+				372E258224B68E2400A5AD97 /* Simulator Screen Shot - iPhone SE (2nd generation) - 2020-07-08 at 20.27.52.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
